@@ -1,6 +1,7 @@
 import tools
 import e_eleme as elemento
 import h_coord as coordena
+import i_qu_ten as queda_tensao
 
 
 class Menu():
@@ -14,7 +15,7 @@ class Menu():
         print("4-Elemento")
         print("5-N.Coord.|QTD.Atm.")
         print("6-Coord. Elemento")
-        print("7-Elemento")
+        print("7-Queda de Tensão")
         print("8-Elemento")
         print("1: Sair | 2: > ")
 
@@ -56,6 +57,8 @@ class Menu():
                 coordena.dados_em_tela()
             elif self.opcao == 6:
                 coordena.imprimir_estrutura_por_elemento()
+            elif self.opcao == 7:
+                queda_tensao.tela()
 
 
 menu = Menu()

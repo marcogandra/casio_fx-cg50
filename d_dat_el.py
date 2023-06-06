@@ -122,6 +122,232 @@ ELEMENT_DATA = {
     'Og': {'nome': 'Oganesson', 'numero_atomico': 118, 'massa_atomica': 294, 'raio_atomico': '-', 'estrutura_cristalina': '-', 'eletronegatividade': '-', 'valencia': '-', 'atomos_celula': '-', 'densidade': '-'},
 }
 
+elementos_2 = {
+    'H': {'Nome': 'Hidrogênio', 'Massa Atômica': 1.008, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': None},
+    'He': {'Nome': 'Hélio', 'Massa Atômica': 4.003, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': None},
+    'Li': {'Nome': 'Lítio', 'Massa Atômica': 6.941, 'Densidade do Sólido (g/cm³)': 0.533, 'Estrutura Cristalina': 'ccc', 'Ponto de Fusão (°C)': 180.6},
+    'Be': {'Nome': 'Berílio', 'Massa Atômica': 9.012, 'Densidade do Sólido (g/cm³)': 1.85, 'Estrutura Cristalina': 'hc', 'Ponto de Fusão (°C)': 1289},
+    "B": {"Nome": "Boro", "Massa Atômica": 10.81, "Densidade do Sólido (g/cm³)": 2.34, "Estrutura Cristalina": "rômbica", "Ponto de Fusão (°C)": 2075},
+    "C": {"Nome": "Carbono", "Massa Atômica": 12.01, "Densidade do Sólido (g/cm³)": 2.26, "Estrutura Cristalina": "hexagonal", "Ponto de Fusão (°C)": 3500},
+    "N": {"Nome": "Nitrogênio", "Massa Atômica": 14.01, "Densidade do Sólido (g/cm³)": 1.03, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": -210},
+    'O': {'Nome': 'Oxigênio', 'Massa Atômica': None, "Densidade do Sólido (g/cm³)": None, "Estrutura Cristalina": 'cúbica de face centrada', 'Ponto de Fusão (°C)': 660.4},
+    '15': {'Nome': 'Fósforo', 'Massa Atômica': 30.97, 'Densidade do Sólido (g/cm³)': 1.82, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 44.1},
+    '16': {'Nome': 'Enxofre', 'Massa Atômica': 32.06, 'Densidade do Sólido (g/cm³)': 2.07, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 115.2},
+    '17': {'Nome': 'Cloro', 'Massa Atômica': 35.45, 'Densidade do Sólido (g/cm³)': 1.56, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': -101},
+    "Ar": {"Nome": "Argônio", "Massa Atômica": 39.95, "Densidade do Sólido (g/cm³)": None, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": -189},
+    "K": {"Nome": "Potássio", "Massa Atômica": 39.10, "Densidade do Sólido (g/cm³)": 0.86, "Estrutura Cristalina": "cúbica de corpo centrado", "Ponto de Fusão (°C)": 63.4},
+    "Ca": {"Nome": "Cálcio", "Massa Atômica": 40.08, "Densidade do Sólido (g/cm³)": 1.54, "Estrutura Cristalina": "cúbica de face centrada", "Ponto de Fusão (°C)": 842},
+    "Sc": {"Nome": "Escândio", "Massa Atômica": 44.96, "Densidade do Sólido (g/cm³)": 2.99, "Estrutura Cristalina": "hexagonal compacta", "Ponto de Fusão (°C)": 1541},
+    "Ti": {"Nome": "Titânio", "Massa Atômica": 47.87, "Densidade do Sólido (g/cm³)": 4.54, "Estrutura Cristalina": "hexagonal compacta", "Ponto de Fusão (°C)": 1668},
+    "V": {"Nome": "Vanádio", "Massa Atômica": 50.94, "Densidade do Sólido (g/cm³)": 6.11, "Estrutura Cristalina": "cúbica de corpo centrado", "Ponto de Fusão (°C)": 1910},
+    "Cr": {"Nome": "Cromo", "Massa Atômica": 52.00, "Densidade do Sólido (g/cm³)": 7.19, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 1907},
+    'Mn': {'Nome': 'Manganês', 'Massa Atômica': 54.94, 'Densidade do Sólido (g/cm³)': 7.21, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 1246},
+    'Fe': {'Nome': 'Ferro', 'Massa Atômica': 55.85, 'Densidade do Sólido (g/cm³)': 7.87, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 1538},
+    'Co': {'Nome': 'Cobalto', 'Massa Atômica': 58.93, 'Densidade do Sólido (g/cm³)': 8.90, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 1495},
+    'Ni': {'Nome': 'Níquel', 'Massa Atômica': 58.69, 'Densidade do Sólido (g/cm³)': 8.91, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 1453},
+    "Cu": {"Nome": "Cobre", "Massa Atômica": 63.55, "Densidade do Sólido (g/cm³)": 8.96, "Estrutura Cristalina": "cúbica de face centrada", "Ponto de Fusão (°C)": 1083},
+    "Zn": {"Nome": "Zinco", "Massa Atômica": 65.38, "Densidade do Sólido (g/cm³)": 7.14, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 419},
+    'Ga': {'Nome': 'Gálio', 'Massa Atômica': 69.72, 'Densidade do Sólido (g/cm³)': 5.91, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 30},
+    'Ge': {'Nome': 'Germânio', 'Massa Atômica': 72.63, 'Densidade do Sólido (g/cm³)': 5.32, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 937},
+    "As": {"Nome": "Arsênio", "Massa Atômica": 74.92, "Densidade do Sólido (g/cm³)": 5.73, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 817},
+    'Se': {'Nome': 'Selênio', 'Massa Atômica': 78.96, 'Densidade do Sólido (g/cm³)': 4.82, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 221},
+    "Br": {"Nome": "Bromo", "Massa Atômica": 79.90, "Densidade do Sólido (g/cm³)": 3.12, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": -7.2},
+    'Kr': {'Nome': 'Criptônio', 'Massa Atômica': 83.80, 'Densidade do Sólido (g/cm³)': 0.00375, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': -157},
+    "Rb": {"Nome": "Rubídio", "Massa Atômica": 85.47, "Densidade do Sólido (g/cm³)": 1.53, "Estrutura Cristalina": "cúbica de corpo centrado", "Ponto de Fusão (°C)": 39.3},
+    "Sr": {"Nome": "Estrôncio", "Massa Atômica": 87.62, "Densidade do Sólido (g/cm³)": 2.63, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 769},
+    'Y': {'Nome': 'Ítrio', 'Massa Atômica': 88.91, 'Densidade do Sólido (g/cm³)': 4.47, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 1526},
+    'Zr': {'Nome': 'Zircônio', 'Massa Atômica': 91.22, 'Densidade do Sólido (g/cm³)': 6.51, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 1855},
+    'Nb': {'Nome': 'Nióbio', 'Massa Atômica': 92.91, 'Densidade do Sólido (g/cm³)': 8.57, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 2477},
+    "Mo": {"Nome": "Molibdênio", "Massa Atômica": 95.94, "Densidade do Sólido (g/cm³)": 10.22, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 2623},
+    "Tc": {"Nome": "Tecnécio", "Massa Atômica": 98.91, "Densidade do Sólido (g/cm³)": 11.5, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 2157},
+    "Ru": {"Nome": "Rutênio", "Massa Atômica": 101.07, "Densidade do Sólido (g/cm³)": 12.41, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 2334},
+    "Rh": {"Nome": "Ródio", "Massa Atômica": 102.91, "Densidade do Sólido (g/cm³)": 12.41, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 1966},
+    "Pd": {"Nome": "Paládio", "Massa Atômica": 106.42, "Densidade do Sólido (g/cm³)": 12.02, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 1552},
+    "Ag": {"Nome": "Prata", "Massa Atômica": 107.87, "Densidade do Sólido (g/cm³)": 10.49, "Estrutura Cristalina": "cúbica de face centrada", "Ponto de Fusão (°C)": 961.8},
+    "Cd": {"Nome": "Cádmio", "Massa Atômica": 112.41, "Densidade do Sólido (g/cm³)": 8.65, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 321},
+    'In': {'Nome': 'Índio', 'Massa Atômica': 114.82, 'Densidade do Sólido (g/cm³)': 7.31, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 157},
+    'Sn': {'Nome': 'Estanho', 'Massa Atômica': 118.71, 'Densidade do Sólido (g/cm³)': 7.31, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 231.9},
+    'Sb': {'Nome': 'Antimônio', 'Massa Atômica': 121.76, 'Densidade do Sólido (g/cm³)': 6.69, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 630},
+    "Te": {"Nome": "Telúrio", "Massa Atômica": 127.60, "Densidade do Sólido (g/cm³)": 6.24, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 449.5},
+    "I": {"Nome": "Iodo", "Massa Atômica": 126.90, "Densidade do Sólido (g/cm³)": 4.93, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 113.7},
+    'Xe': {'Nome': 'Xenônio', 'Massa Atômica': 131.29, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': -111.8},
+    "Cs": {"Nome": "Césio", "Massa Atômica": 132.91, "Densidade do Sólido (g/cm³)": 1.93, "Estrutura Cristalina": "cúbica de face centrada", "Ponto de Fusão (°C)": 28.4},
+    "Ba": {"Nome": "Bário", "Massa Atômica": 137.33, "Densidade do Sólido (g/cm³)": 3.51, "Estrutura Cristalina": "cúbica de face centrada", "Ponto de Fusão (°C)": 727},
+    "La": {"Nome": "Lantânio", "Massa Atômica": 138.91, "Densidade do Sólido (g/cm³)": 6.15, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 920},
+    'Ce': {'Nome': 'Cério', 'Massa Atômica': 140.12, 'Densidade do Sólido (g/cm³)': 6.77, 'Estrutura Cristalina': 'cúbica de face centrada', 'Ponto de Fusão (°C)': 798},
+    'Pr': {'Nome': 'Praseodímio', 'Massa Atômica': 140.91, 'Densidade do Sólido (g/cm³)': 6.48, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 931},
+    'Nd': {'Nome': 'Neodímio', 'Massa Atômica': 144.24, 'Densidade do Sólido (g/cm³)': 7.01, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 1024},
+    "Pm": {"Nome": "Promécio", "Massa Atômica": 145, "Densidade do Sólido (g/cm³)": None, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 1042},
+    'Sm': {'Nome': 'Samário', 'Massa Atômica': 150.36, 'Densidade do Sólido (g/cm³)': 7.54, 'Estrutura Cristalina': 'romboédrica', 'Ponto de Fusão (°C)': 1072},
+    "Eu": {"Nome": "Európio", "Massa Atômica": 151.96, "Densidade do Sólido (g/cm³)": 5.25, "Estrutura Cristalina": "cúbica de face centrada", "Ponto de Fusão (°C)": 822},
+    'Gd': {'Nome': 'Gadolínio', 'Massa Atômica': 157.25, 'Densidade do Sólido (g/cm³)': 7.87, 'Estrutura Cristalina': 'hexagonal compacta', 'Ponto de Fusão (°C)': 1313},
+    'Tb': {'Nome': 'Térbio', 'Massa Atômica': 158.93, 'Densidade do Sólido (g/cm³)': 8.27, 'Estrutura Cristalina': 'hexagonal compacta', 'Ponto de Fusão (°C)': 1356},
+    "Dy": {"Nome": "Disprósio", "Massa Atômica": 162.50, "Densidade do Sólido (g/cm³)": 8.53, "Estrutura Cristalina": "hexagonal compacta", "Ponto de Fusão (°C)": 1412},
+    "Ho": {"Nome": "Hólmio", "Massa Atômica": 164.93, "Densidade do Sólido (g/cm³)": 8.80, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 1474},
+    'Er': {'Nome': 'Érbio', 'Massa Atômica': 167.26, 'Densidade do Sólido (g/cm³)': 9.04, 'Estrutura Cristalina': 'hexagonal compacta', 'Ponto de Fusão (°C)': 1529},
+    "Tm": {"Nome": "Túlio", "Massa Atômica": 168.93, "Densidade do Sólido (g/cm³)": 9.33, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 1545},
+    "Lu": {"Nome": "Lutécio", "Massa Atômica": 174.97, "Densidade do Sólido (g/cm³)": 9.84, "Estrutura Cristalina": "hexagonal compacta", "Ponto de Fusão (°C)": 1663},
+    'Hf': {'Nome': 'Háfnio', 'Massa Atômica': 178.49, 'Densidade do Sólido (g/cm³)': 13.28, 'Estrutura Cristalina': 'hexagonal compacta', 'Ponto de Fusão (°C)': 2233},
+    'Ta': {'Nome': 'Tântalo', 'Massa Atômica': 180.95, 'Densidade do Sólido (g/cm³)': 16.67, 'Estrutura Cristalina': 'cúbica de corpo centrado', 'Ponto de Fusão (°C)': 3017},
+    "W": {"Nome": "Tungstênio", "Massa Atômica": 183.85, "Densidade do Sólido (g/cm³)": 19.25, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 3422},
+    "Re": {"Nome": "Rênio", "Massa Atômica": 186.20, "Densidade do Sólido (g/cm³)": 21.02, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 3186},
+    'Os': {'Nome': 'Ósmio', 'Massa Atômica': 190.20, 'Densidade do Sólido (g/cm³)': 22.58, 'Estrutura Cristalina': 'hexagonal compacta', 'Ponto de Fusão (°C)': 3033},
+    "Ir": {"Nome": "Irídio", "Massa Atômica": 192.22, "Densidade do Sólido (g/cm³)": 22.55, "Estrutura Cristalina": "cúbica de face centrada", "Ponto de Fusão (°C)": 2447},
+    "Pt": {"Nome": "Platina", "Massa Atômica": 195.09, "Densidade do Sólido (g/cm³)": 21.44, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 1769},
+    'Au': {'Nome': 'Ouro', 'Massa Atômica': 196.97, 'Densidade do Sólido (g/cm³)': 19.28, 'Estrutura Cristalina': 'cúbica de face centrada', 'Ponto de Fusão (°C)': 1064},
+    'Hg': {'Nome': 'Mercúrio', 'Massa Atômica': 200.59, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': -39},
+    "Tl": {"Nome": "Tálio", "Massa Atômica": 204.37, "Densidade do Sólido (g/cm³)": 11.87, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 304},
+    "Pb": {"Nome": "Chumbo", "Massa Atômica": 207.20, "Densidade do Sólido (g/cm³)": 11.34, "Estrutura Cristalina": "cúbica de face centrada", "Ponto de Fusão (°C)": 327},
+    "Bi": {"Nome": "Bismuto", "Massa Atômica": 208.98, "Densidade do Sólido (g/cm³)": 9.80, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 271},
+    "Po": {"Nome": "Polônio", "Massa Atômica": 209, "Densidade do Sólido (g/cm³)": 9.2, "Estrutura Cristalina": "cúbica de face centrada", "Ponto de Fusão (°C)": 254},
+    "At": {"Nome": "Ástato", "Massa Atômica": 210, "Densidade do Sólido (g/cm³)": None, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 302},
+    "Rn": {"Nome": "Radônio", "Massa Atômica": 222, "Densidade do Sólido (g/cm³)": None, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": -71},
+    'Fr': {'Nome': 'Frâncio', 'Massa Atômica': 223, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': 'cúbica de corpo centrado', 'Ponto de Fusão (°C)': 27},
+    'Ra': {'Nome': 'Rádio', 'Massa Atômica': 226.03, 'Densidade do Sólido (g/cm³)': 5.0, 'Estrutura Cristalina': 'cúbica de face centrada', 'Ponto de Fusão (°C)': 700},
+    "Ac": {"Nome": "Actínio", "Massa Atômica": 227.03, "Densidade do Sólido (g/cm³)": 10.07, "Estrutura Cristalina": "cúbica de face centrada", "Ponto de Fusão (°C)": 1050},
+    "Th": {"Nome": "Tório", "Massa Atômica": 232.04, "Densidade do Sólido (g/cm³)": 11.72, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 1750},
+    "Pa": {"Nome": "Protactínio", "Massa Atômica": 231.04, "Densidade do Sólido (g/cm³)": 15.37, "Estrutura Cristalina": "cúbica de corpo centrado", "Ponto de Fusão (°C)": 1572},
+    "U": {"Nome": "Urânio", "Massa Atômica": 238.03, "Densidade do Sólido (g/cm³)": 19.05, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 1132},
+    "Np": {"Nome": "Neptúnio", "Massa Atômica": 237.05, "Densidade do Sólido (g/cm³)": 20.45, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 644},
+    'Pu': {'Nome': 'Plutônio', 'Massa Atômica': 244, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 640},
+    'Am': {'Nome': 'Amerício', 'Massa Atômica': 243, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 994},
+    'Cm': {'Nome': 'Cúrio', 'Massa Atômica': 247, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 1340},
+    'Bk': {'Nome': 'Berquélio', 'Massa Atômica': 247, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 986},    
+    "Cf": {"Nome": "Califórnio", "Massa Atômica": 251, "Densidade do Sólido (g/cm³)": None, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 900},
+    'Es': {'Nome': 'Einstênio', 'Massa Atômica': 252, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 860},
+    'Fm': {'Nome': 'Férmio', 'Massa Atômica': 257, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 1527},
+    'Md': {'Nome': 'Mendelévio', 'Massa Atômica': 258, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': 827},
+    "No": {"Nome": "Nobélio", "Massa Atômica": 259, "Densidade do Sólido (g/cm³)": None, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 827},
+    "Lr": {"Nome": "Laurêncio", "Massa Atômica": 262.11 , "Densidade do Sólido (g/cm³)": 15.6 , "Estrutura Cristalina":"hexagonal", "Ponto de Fusão (°C)": 1627},
+    "Rf": {"Nome": "Rutherfórdio", "Massa Atômica": 267, "Densidade do Sólido (g/cm³)": None, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": 2100},    
+    "Db": {"Nome": "Dúbnio", "Massa Atômica": 270, "Densidade do Sólido (g/cm³)": None, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": None},
+    "Sg": {"Nome": "Seabórgio", "Massa Atômica": 271, "Densidade do Sólido (g/cm³)": None, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": None},
+    "Bh": {"Nome": "Bóhrio", "Massa Atômica": 270, "Densidade do Sólido (g/cm³)": None, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": None},
+    'Hs': {'Nome': 'Hássio', 'Massa Atômica': 277, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': None},
+    'Mt': {'Nome': 'Meitnério', 'Massa Atômica': 278, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': None},
+    'Ds': {'Nome': 'Darmstádio', 'Massa Atômica': 281.16 , 'Densidade do Sólido (g/cm³)': 34.8 , 'Estrutura Cristalina':"hexagonal", 'Ponto de Fusão (°C)': None},
+    'Rg': {'Nome': 'Roentgênio', 'Massa Atômica': 282, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': None},
+    "Cn": {"Nome": "Copernício", "Massa Atômica": 285, "Densidade do Sólido (g/cm³)": None, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": None},
+    "Fl": {"Nome": "Fleróvio", "Massa Atômica": 289, "Densidade do Sólido (g/cm³)": None, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": None},
+    "Mc": {"Nome": "Moscóvio", "Massa Atômica": 288, "Densidade do Sólido (g/cm³)": None, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": None},
+    'Lv': {'Nome': 'Livermório', 'Massa Atômica': 293, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': None},
+    'Ts': {'Nome': 'Tennesso', 'Massa Atômica': 294, 'Densidade do Sólido (g/cm³)': None, 'Estrutura Cristalina': None, 'Ponto de Fusão (°C)': None},
+    "Og": {"Nome": "Oganessônio", "Massa Atômica": 294, "Densidade do Sólido (g/cm³)": None, "Estrutura Cristalina": None, "Ponto de Fusão (°C)": None},
+}        
+
+resistividade_ohmXm = [
+    {"H": 1.0e8},
+    {"He": 1.0e-8},
+    {"Li": 9.28e-9},
+    {"Be": 4.0e-7},
+    {"B": 1.0e6},
+    {"C": 3.5e5},
+    {"N": 1.7e8},
+    {"O": 2.2e5},
+    {"F": 1.5e22},
+    {"Ne": 1.2e-8},
+    {"Na": 4.9e-8},
+    {"Mg": 4.45e-8},
+    {"Al": 2.65e-8},
+    {"Si": 6.4e2},
+    {"P": 1.0e3},
+    {"S": 2.0e16},
+    {"Cl": 2.3e16},
+    {"Ar": None}, # Argônio é um gás nobre e não possui resistividade
+    {"K": 7.17e-8}, 
+    {'Ca': None}, # Cálcio é um metal alcalino terroso e não possui resistividade
+	{"Sc" : None}, # Escândio é um metal de transição e não possui valor conhecido de resistividade
+	{"Ti" : None}, # Titânio é um metal de transição e não possui valor conhecido de resistividade
+	{"V" : None}, # Vanádio é um metal de transição e não possui valor conhecido de resistividade
+	{"Cr" : None}, # Cromo é um metal de transição e não possui valor conhecido de resistividade
+	{"Mn" : None}, # Manganês é um metal de transição e não possui valor conhecido de resistividade
+	{"Fe" : 1.0e-7},
+	{"Co" : 6.0e-8},
+    {"Ni": 6.84e-8},
+    {"Cu": 1.68e-8},
+    {"Zn": 5.9e-8},
+    {"Ga": 4.52e-8},
+    {"Ge": 4.6e2},
+    {"As": 4.7e-7},
+    {"Se": 1.0e6},
+    {"Br": None}, # Bromo é um halogênio líquido e não possui valor conhecido de resistividade
+	{"Kr" : None}, # Criptônio é um gás nobre e não possui valor conhecido de resistividade
+	{"Rb" : 1.2e-7}, 
+	{"Sr" : None}, # Estrôncio é um metal alcalino terroso e não possui valor conhecido de resistividade
+	{"Y" : None}, # Ítrio é um metal de transição e não possui valor conhecido de resistividade
+	{"Zr" : None}, # Zircônio é um metal de transição e não possui valor conhecido de resistividade
+	{"Nb" : None}, # Nióbio é um metal de transição e não possui valor conhecido de resistividade
+	{"Mo" : None}, # Molibdênio é um metal de transição e não possui valor conhecido de resistividade
+	{"Tc" : None}, # Tecnécio é um elemento sintético e não possui valor conhecido de resistividade
+	{"Ru" : 7.0e-8},
+	{"Rh" : 4.5e-8},
+	{"Pd" : 1.05e-7},
+	{"Ag" : 1.59e-8},
+	{"Cd" : 6.9e-8},
+	{"In" : 8.37e-8},
+	{"Sn" : 1.09e-7},
+	{"Sb" : 3.7e-7},     
+    {"Te": 4.5e6},
+    {"I": 1.0e23},
+    {"Xe": None}, # Xenônio é um gás nobre e não possui valor conhecido de resistividade
+    {"Cs": 2.09e-7},
+    {"Ba": None}, # Bário é um metal alcalino terroso e não possui valor conhecido de resistividade
+    {"La": None}, # Lantânio é um lantanídeo e não possui valor conhecido de resistividade
+    {"Ce": None}, # Cério é um lantanídeo e não possui valor conhecido de resistividade
+    {"Pr": None}, # Praseodímio é um lantanídeo e não possui valor conhecido de resistividade
+    {"Nd": None}, # Neodímio é um lantanídeo e não possui valor conhecido de resistividade
+    {"Pm": None}, # Promécio é um elemento sintético e não possui valor conhecido de resistividade
+    {"Sm": None}, # Samário é um lantanídeo e não possui valor conhecido de resistividade
+    {"Eu": None}, # Európio é um lantanídeo e não possui valor conhecido de resistividade
+    {"Gd": None}, # Gadolínio é um lantanídeo e não possui valor conhecido de resistividade
+    {"Tb": None}, # Térbio é um lantanídeo e não possui valor conhecido de resistividade
+    {"Dy": None}, # Disprósio é um lantanídeo e não possui valor conhecido de resistividade
+    {"Ho": None}, # Hólmio é um lantanídeo e não possui valor conhecido de resistividade
+    {"Er": None}, # Erbium é um lantanídeo e não possui valor conhecido de resistividade
+    {"Tm": None}, # Túlio é um lantanídeo e não possui valor conhecido de resistividade
+    {"Yb": 5.0e-8},
+    {"Lu": 6.7e-8},
+    {"Hf": 4.2e-7},
+    {"Ta": 1.3e-7},
+    {"W": 5.6e-8},
+    {"Re": 1.3e-6},
+    {"Os": 8.2e-8},
+    {"Ir": 5.0e-8},
+    {"Pt": 1.06e-7},
+    {"Au": 2.35e-8},
+    {"Hg": 9.6e-7},
+    {"Tl": 4.2e-7},
+    {"Pb": 2.1e-7},
+    {"Bi": 1.3e-6},
+    {"Po": None}, # Polônio é um elemento radioativo e não possui valor conhecido de resistividade
+    {"At": None}, # Astato é um elemento radioativo e não possui valor conhecido de resistividade
+    {"Rn": None}, # Radônio é um gás nobre e não possui valor conhecido de resistividade
+    {"Fr": None}, # Frâncio é um metal alcalino e não possui valor conhecido de resistividade
+    {"Ra": None}, # Rádio é um metal alcalino terroso e não possui valor conhecido de resistividade
+    {"Ac": None}, # Actínio é um actinídeo e não possui valor conhecido de resistividade
+    {"Th": None}, # Tório é um actinídeo e não possui valor conhecido de resistividade
+    {"Pa": None}, # Protactínio é um actinídeo e não possui valor conhecido de resistividade
+    {"U": None}, # Urânio é um actinídeo e não possui valor conhecido de resistividade
+    {"Np": None}, # Netúnio é um actinídeo e não possui valor conhecido de resistividade
+    {"Pu": None}, # Plutônio é um elemento radioativo e não possui valor conhecido de resistividade
+    {"Am": None}, # Amerício é um elemento radioativo e não possui valor conhecido de resistividade        
+    {"Cm": None}, # Cúrio é um actinídeo e não possui valor conhecido de resistividade
+    {"Bk": None}, # Berquélio é um actinídeo e não possui valor conhecido de resistividade
+    {"Cf": None}, # Califórnio é um actinídeo e não possui valor conhecido de resistividade
+    {"Es": None}, # Einstênio é um actinídeo e não possui valor conhecido de resistividade
+    {"Fm": None}, # Férmio é um actinídeo e não possui valor conhecido de resistividade
+    {"Md": None}, # Mendelévio é um elemento sintético e não possui valor conhecido de resistividade
+    {"No": None}, # Nobélio é um elemento sintético e não possui valor conhecido de resistividade
+    {"Lr": None}, # Laurêncio é um elemento sintético e não possui valor conhecido de resistividade
+    {"Rf": None}, # Rutherfórdio é um elemento sintético e não possui valor conhecido de resistividade
+    {"Db": None}, # Dúbnio é um elemento sintético e não possui valor conhecido de resistividade
+    {"Sg": None}, # Seabórgio é um elemento sintético e não possui valor conhecido de resistividade
+    {"Bh": None}, # Bohrío é um elemento sintético e não possui valor conhecido de resistividade
+    {"Hs": None}, # Hássio é um elemento sintético e não possui valor conhecido de resistividade
+    {"Mt": None}, # Meitnério é um elemento sintético e não possui valor conhecido de resistividade
+    {"Ds": None}, # Darmstádio é um elemento sintético e não possui valor conhecido de resistividade
+    {"Rg": None}, # Roentgênio é um elemento sintético e não possui valor conhecido de resistividade      
+]  
 
 def elemento(chave):
     # Converte a chave para a primeira letra maiuscula e o restante minuscula
