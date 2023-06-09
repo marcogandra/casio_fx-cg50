@@ -2,6 +2,7 @@ import tools
 import e_eleme as elemento
 import h_coord as coordena
 import i_qu_ten as queda_tensao
+import l_cal_el.py as calcular_qtd_eletrons_por_segundo_secao_transversal
 
 
 class Menu():
@@ -16,7 +17,8 @@ class Menu():
         print("5-N.Coord.|QTD.Atm.")
         print("6-Coord. Elemento")
         print("7-Queda de Tensão")
-        print("8-Elemento")
+        # Elétrons passam por segundo por uma seção transversal
+        print("8-N. El. passam")
         print("1: Sair | 2: > ")
 
     def opcoes_pag2(self):
@@ -59,6 +61,8 @@ class Menu():
                 coordena.imprimir_estrutura_por_elemento()
             elif self.opcao == 7:
                 queda_tensao.tela()
+            elif self.opcao == 8:
+                calcular_qtd_eletrons_por_segundo_secao_transversal.tela()
 
 
 menu = Menu()
