@@ -2,7 +2,9 @@ import tools
 import e_eleme as elemento
 import h_coord as coordena
 import i_qu_ten as queda_tensao
-import l_cal_el.py as calcular_qtd_eletrons_por_segundo_secao_transversal
+import l_cal_el as calcular_qtd_eletrons_por_segundo_secao_transversal
+import j_p_c_io as calcular_carater_ionico
+import f_HumeRo as regra_de_hume_robinson
 
 
 class Menu():
@@ -23,8 +25,8 @@ class Menu():
 
     def opcoes_pag2(self):
         tools.cls()
-        print("9-Elemento")
-        print("10-Elemento")
+        print("9-cal.car.ionico")
+        print("10-Regra de Hume Robinson")
         print("11-Elemento")
         print("12-Elemento")
         print("012345678901234567890123456789")
@@ -63,6 +65,10 @@ class Menu():
                 queda_tensao.tela()
             elif self.opcao == 8:
                 calcular_qtd_eletrons_por_segundo_secao_transversal.tela()
+            elif self.opcao == 9:
+                calcular_carater_ionico.tela()
+            elif self.opcao == 10:
+                regra_de_hume_robinson.hume_rothery()
 
 
 menu = Menu()

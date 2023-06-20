@@ -89,7 +89,7 @@ def gerar_tela_parte_1(estrutura, elemento=""):
 
     tela.append("Sigla: "+estrutura["sigla"])
 
-    tela.append("Quantidade total de atomos: " +
+    tela.append("atomos_por_celula_unitaria: " +
                 str(estrutura["atomos_por_celula_unitaria"])+" atomo")
 
     tela.append("Fator atomo na celula unitaria por vertice: " +

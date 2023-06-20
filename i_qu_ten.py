@@ -60,4 +60,4 @@ def tela():
     tools.tela(dados)
 
 
-tela()
+# tela()

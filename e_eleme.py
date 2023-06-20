@@ -45,9 +45,6 @@ ELEMENTOS = {'H': ('H', 'Hidrogenio'), 'He': ('He', 'Helio'),
              'Og': ('Og', 'Oganessonio')}
 
 
-
-
-
 def nome_elemento(elemento):
     elemento = tools.ajustar_simbolo(elemento)
 
